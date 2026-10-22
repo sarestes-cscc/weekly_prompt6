@@ -1,0 +1,9 @@
+Question:
+
+In Chapter 13, the rocket ship fires bullets to destroy the alien 
+spaceships. This is accomplished by using the sprite utility groupcollide(). 
+Search the pygame documentation or other resources on the web and discuss 
+what this method does.
+
+Answer:
+
