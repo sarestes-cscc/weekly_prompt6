@@ -7,3 +7,11 @@ what this method does.
 
 Answer:
 
+The groupcollide() method is similar to the spritecollide() method in that it 
+compares two things and wether they touch (collide) and what happens if they 
+do collide, the difference is groupcollide() can compare groups and whether 
+a sprite in a group collides with a separate sprite or sprite group. The first 
+two variables in the parentheses are your two group(s)/sprite. There are other 
+functions that you can use with the Group element, to edit the group by adding, 
+subtracting, completely emptying, etc. Once you have the Group defined then you 
+can test whether it collides using groupcollide(). 
