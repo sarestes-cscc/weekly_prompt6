@@ -8,10 +8,18 @@ what this method does.
 Answer:
 
 The groupcollide() method is similar to the spritecollide() method in that it 
-compares two things and wether they touch (collide) and what happens if they 
+compares two things and whether they touch (collide) and what happens if they 
 do collide, the difference is groupcollide() can compare groups and whether 
 a sprite in a group collides with a separate sprite or sprite group. The first 
 two variables in the parentheses are your two group(s)/sprite. There are other 
 functions that you can use with the Group element, to edit the group by adding, 
-subtracting, completely emptying, etc. Once you have the Group defined then you 
-can test whether it collides using groupcollide(). 
+subtracting, completely emptying, etc. as it is essentially a list created by pygame 
+but with higher level programming that makes it more intuitive for a game. Once you 
+have the Group defined then you can test whether it collides using groupcollide().
+
+The last two variables in the groupcollide() 
+(for ex: groupcollide(alien_group, laser_group, True, True)) are testing whether dokill 
+is True or False. If the first dokill is True, then when a sprite from each group 
+collides than the first group sprite is killed. If the second dokill is True, both sprites 
+will be killed upon collision. If one is false, then the corresponding group will not 
+be killed upon collision.
